@@ -1,0 +1,222 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color:#487eb0;
+    font-family: Arial;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0.5);
+}
+nav .logo{
+    height:10px;
+    width:50px;
+}
+nav ul{
+    list-style:none;
+    float:right;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding:12px 30px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    background:green;
+    border-radius:6px;
+}
+nav ul li a.active{
+    background:#e2472f;
+    border-radius:6px;
+}
+header{
+    width:100%;
+    height:100vh;
+    background:url('laptop.jpg');
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+section{
+    font-family: cursive;
+    top: 25%;
+    position: absolute;
+    width:500px;
+    height:300px;
+    margin20% 29%;
+    text-align:center;
+}
+
+section  a{
+    line-height: 80px;
+    color: #fff;
+    padding:12px 30px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight:bold;
+    background:blue;
+    border-radius:6px;
+}
+section  a:hover{
+    background:orange;
+    border-radius:6px;
+}
+
+.signup-form{
+    width: 300px;
+    padding: 20px;
+    text-align:center;
+    background:url('dark.jpg');
+    top:20%;
+    margin:50%;
+    transform:translate(-50%,-95%);
+    overflow:hidden;
+}
+.login{
+    width: 300px;
+    padding: 20px;
+    text-align:center;
+    background:url('dark.jpg');
+    top:20%;
+    margin:50%;
+    transform:translate(-50%,-130%);
+    overflow:hidden;
+}
+.signup-form h1{
+    margin-top:5px;
+    font-family:'Permanent Marker' ,cursive;
+    color: #fff;
+    font-size: 40px;
+}
+.login h1{
+    margin-top:5px;
+    font-family:'Permanent Marker' ,cursive;
+    color: #fff;
+    font-size: 40px;
+}
+.signup-form select{
+    display: black;
+    width:100%;
+    padding: 0 16px;
+    height: 48px;
+    text-align: center;
+    box-sizing: border-box;
+    outline:none;
+    border:none;
+}
+.login select{
+    display: black;
+    width:100%;
+    padding: 0 16px;
+    height: 48px;
+    text-align: center;
+    box-sizing: border-box;
+    outline:none;
+    border:none;
+}
+.signup-form input{
+    display: black;
+    width:100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    outline:none;
+    border:none;
+}
+.login input{
+    display: black;
+    width:100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    outline:none;
+    border:none;
+}
+.textbar{
+    margin: 20px 0;
+    background:pink;
+    border-radius: 15px;
+}
+.submit{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: #487eb0;
+    color: #fff;
+    border-radius:44px;
+    cursor:pointer;
+    transition:0.8s;
+}
+.submit:hover{
+    transform: scale(0.96);
+}
+.signup-form a{
+    text-decoration:none;
+    color: #fff;
+    font-family;cursive;
+    padding: 10px;
+    transition:0.8s;
+}
+
+.signup-form a:hover{
+    background:rgba(0,0,0,0.3);
+}
+.operations{
+    width: 300px;
+    padding: 20px;
+    text-align:center;
+    background:pink;
+    top:20%;
+    margin:50%;
+    transform:translate(-50%,-140%);
+    overflow:hidden;
+}
+.operations input {
+    background: rgba(0,0,0,0.2);
+    border-radius:10px;
+    font-size:20px;
+    text-decoration:none;
+    color: red;
+    font-family;cursive;
+    padding: 6px;
+    transition:0.3s;
+}
+
+.operations input:hover{
+    background:rgba(0,0,0,0.9);
+}
+.projects{
+    width: 600px;
+    padding: 20px;
+    text-align:center;
+    background:pink;
+    top:20%;
+    margin:50%;
+    transform:translate(-50%,-140%);
+    overflow:hidden;
+}
+.projects input{
+    border:none;
+}
+.projects input:hover{
+    background:rgba(0,0,0,0.3);
+}
+.table{
+    border:5px;
+    background-color: #f1f1c1;
+}
